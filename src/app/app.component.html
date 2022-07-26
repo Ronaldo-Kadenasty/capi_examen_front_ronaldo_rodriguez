@@ -354,17 +354,17 @@
                         <tr>
                             <th scope="col">#</th>
                             <th scope="col">Nombre de usuario</th>
-                            <th scope="col">Fecha de nacimiento</th>
+                            <th scope="col">Direccion</th>
                             <th scope="col">Edad
 
                             </th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr *ngFor="let issues of UsersList">
+                        <tr *ngFor="let issues of UsersList.data">
                             <th scope="row">{{issues.id}}</th>
                             <td>{{issues.nombre}}</td>
-                            <td>{{issues.issue_message}}</td>
+                            <td>{{issues.domicilio}}</td>
                             <td>
              
                             </td>
